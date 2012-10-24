@@ -5,7 +5,7 @@
         order GET    /orders/:id(.:format)        orders#show
               PUT    /orders/:id(.:format)        orders#update
    line_items POST   /line_items(.:format)        line_items#create
-new_line_item GET    /line_items/new(.:format)    line_items#new
+ new_line_item GET    /line_items/new(.:format)    line_items#new
     line_item GET    /line_items/:id(.:format)    line_items#show
               PUT    /line_items/:id(.:format)    line_items#update
               DELETE /line_items/:id(.:format)    line_items#destroy
